@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+
+body{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: rgb(2, 2, 2);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(253, 253, 253);
+
+    
+ 
+}
+/* Change text color to white */
+h1 {
+    color: white; /* white text color */
+    font-size: 27px; /* extra large font size */
+    width: 500px; /* set width */
+    margin-left: 100px; /* set left margin */
+    margin-top: 10%; /* set top margin */
+    text-align: justify;
+ }
+p{
+    color: white;
+
+}
+span{
+    color: red;
+}
+p {
+    font-size: xx-large;
+   position: absolute;
+   width:525px;
+   height: 125px;
+   left: 125px;
+   top: 20%;
+    }
+
+
+    section {
+        display:flexbox;
+        width: 210%;
+        height: 299px;
+        border-radius: 0px;
+       align-items: right;
+       margin-left: 125px;
+       
+    
+    }
+    img{
+        float: right;
+        box-shadow: 0 0 10px rgb(248, 0, 0);
+        border-radius: 5px;
+        height:130%;
+        top: 25%;
+
+    }
+    button {
+        background-color: #f80303;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-right: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        display: flexbox;
+        width: 15%;
+        height: 15%;
+        float: left;
+        
+
+
+      }
+      
+      button:hover {
+        background-color: #000000;
+      }
+      
+      button a {
+        color: #fff;
+        text-decoration: none;
+        
+      }
